@@ -15,31 +15,31 @@
   .bg-1 {
       background-size: 100% 100%;
       background-attachment: fixed;
-      background-image: url('../../img/image.png');
+      background-image: url('../img/image.png');
       color: #ffffff;
   }
 
   .bg-2 {
-      background-color: #474e5d;
-      /* Dark Blue */
-      color: #ffffff;
-  }
-
-  .bg-3 {
       background-color: #ffffff;
-      /* White */
       color: #555555;
   }
 
+  .bg-3 {
+      background-color: #AAC6A0;
+      color: #555555;
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+
+
   .bg-4 {
-      background-color: #2f2f2f;
-      /* Black Gray */
+      background-color: #49523F;
       color: #fff;
   }
 
   .container-fluid {
-      padding-top: 70px;
-      padding-bottom: 70px;
+      padding-top: 50px;
+      padding-bottom: 50px;
   }
 
   .navbar {
@@ -54,4 +54,9 @@
 
   .navbar-nav li a:hover {
       color: #1abc9c !important;
+  }
+
+  #mail {
+      color: #317265;
+      font-size: 20px;
   }
